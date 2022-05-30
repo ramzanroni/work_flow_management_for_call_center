@@ -1,105 +1,118 @@
-# [AdminLTE - Bootstrap 4 Admin Dashboard](https://adminlte.io)
 
-[![npm version](https://img.shields.io/npm/v/admin-lte/latest.svg)](https://www.npmjs.com/package/admin-lte)
-[![Packagist](https://img.shields.io/packagist/v/almasaeed2010/adminlte.svg)](https://packagist.org/packages/almasaeed2010/adminlte)
-[![cdn version](https://data.jsdelivr.com/v1/package/npm/admin-lte/badge)](https://www.jsdelivr.com/package/npm/admin-lte)
-[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/from-referrer/)
-[![Open in Visual Studio Code](https://open.vscode.dev/badges/open-in-vscode.svg)](https://open.vscode.dev/ColorlibHQ/AdminLTE)
-[![Discord Invite](https://img.shields.io/badge/discord-join%20now-green)](https://discord.gg/jfdvjwFqfz)
-
-**AdminLTE** is a fully responsive administration template. Based on **[Bootstrap 4.6](https://getbootstrap.com/)** framework and also the JS/jQuery plugin.
-Highly customizable and easy to use. Fits many screen resolutions from small mobile devices to large desktops.
-
-**Preview on [AdminLTE.io](https://adminlte.io/themes/v3)**
-
-## Looking for Premium Templates?
-
-AdminLTE.io just opened a new premium templates page. Hand picked to ensure the best quality and the most affordable
-prices. Visit <https://adminlte.io/premium> for more information.
-
-!["AdminLTE Presentation"](https://adminlte.io/AdminLTE3.png "AdminLTE Presentation")
-
-**AdminLTE** has been carefully coded with clear comments in all of its JS, SCSS and HTML files.
-SCSS has been used to increase code customizability.
-
-## Quick start
-There are multiple ways to install AdminLTE.
-
-### Download & Changelog:
-Always Recommended to download from GitHub latest release [AdminLTE 3](https://github.com/ColorlibHQ/AdminLTE/releases/latest) for bug free and latest features.\
-Visit the [releases](https://github.com/ColorlibHQ/AdminLTE/releases) page to view the changelog.\
-Legacy Releases are [AdminLTE 2](https://github.com/ColorlibHQ/AdminLTE/releases/tag/v2.4.18) / [AdminLTE 1](https://github.com/ColorlibHQ/AdminLTE/releases/tag/1.3.1).
-
-## Stable release
-### Grab from [jsdelivr](https://www.jsdelivr.com/package/npm/admin-lte) CDN:
-_**Important Note**: You needed to add separately cdn links for plugins in your project._
-```html
-<script src="https://cdn.jsdelivr.net/npm/admin-lte@3.2/dist/js/adminlte.min.js"></script>
-```
-```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/admin-lte@3.2/dist/css/adminlte.min.css">
-```
-### Using The Command Line:
-_**Important Note**: To install it via npm/Yarn, you need at least Node.js 14 or higher._
-#### Via npm
-```bash
-npm install admin-lte@^3.2 --save
-```
-#### Via Yarn
-```bash
-yarn add admin-lte@^3.2
-```
-#### Via Composer
-```bash
-composer require "almasaeed2010/adminlte=~3.2"
-```
-#### Via Git
-```bash
-git clone https://github.com/ColorlibHQ/AdminLTE.git
-```
-
-## Documentation
-
-Visit the [online documentation](https://adminlte.io/docs/3.2/) for the most
-updated guide. Information will be added on a weekly basis.
-
-## Browsers support
-
-| [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/edge/edge_48x48.png" alt="IE / Edge" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br/>IE / Edge | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png" alt="Firefox" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br/>Firefox | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png" alt="Chrome" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br/>Chrome | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari/safari_48x48.png" alt="Safari" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br/>Safari | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/safari-ios/safari-ios_48x48.png" alt="iOS Safari" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br/>iOS Safari | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/samsung-internet/samsung-internet_48x48.png" alt="Samsung" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br/>Samsung | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/opera/opera_48x48.png" alt="Opera" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br/>Opera | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/vivaldi/vivaldi_48x48.png" alt="Vivaldi" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br/>Vivaldi | [<img src="https://raw.githubusercontent.com/alrra/browser-logos/master/src/electron/electron_48x48.png" alt="Electron" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br/>Electron |
-| --------- | --------- | --------- | --------- | --------- | --------- | --------- | --------- | --------- |
-| IE10, IE11, Edge| last 2 versions| last 2 versions| last 2 versions| last 2 versions| last 2 versions| last 2 versions| last 2 versions| last 2 versions
-
-## Light Mode (Only Dark Mode Removed)
-You can use light-mode-only version, if you are not using dark mode and also file size less without dark-mode.
-
-File Location `./dist/css/alt/adminlte.light.css`
+Workflow Management
 
 
-## Compile dist files
-
-To compile the dist files you need Node.js/npm, clone/download the repo then:
-
-1. `npm install` (install npm deps)
-2. _Optional:_ `npm run dev` (developer mode, autocompile with browsersync support for live demo)
-3. `npm run production` (compile css/js files)
+ 
 
 
-## Contributing
-
-Please read through our [contributing guidelines](https://github.com/ColorlibHQ/AdminLTE/tree/master/.github/CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
-
-Editor preferences are available in the [editor config](https://github.com/twbs/bootstrap/blob/main/.editorconfig) for easy use in common text editors. Read more and download plugins at <https://editorconfig.org/>.
 
 
-## License
 
-AdminLTE is an open source project by [AdminLTE.io](https://adminlte.io) that is licensed under [MIT](https://opensource.org/licenses/MIT).
-AdminLTE.io reserves the right to change the license of future releases.
 
-## Image Credits
 
-- [Pixeden](http://www.pixeden.com/psd-web-elements/flat-responsive-showcase-psd)
-- [Graphicsfuel](https://www.graphicsfuel.com/2013/02/13-high-resolution-blur-backgrounds/)
-- [Pickaface](https://pickaface.net/)
-- [Unsplash](https://unsplash.com/)
-- [Uifaces](http://uifaces.com/)
+
+
+ 
+Browsing URL: 
+-	http://202.51.187.235/roster/
+Database Information:
+-	Roster
+-	Db_shooz
+-	asterisk
+Corn File Name:
+
+−	http://202.51.187.235/wallboard/15-min-report.php
+Using this script store 15 min interval data in temp_15_interval (db_shooz) table.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Admin Panel
+Campaign:
+Must enter unique campaign name duplicate name doesn’t acceptable for this system.
+ 
+
+Schedule: 
+The second step is make schedule in this operation we need to be make schedule weekly. Collect the user from vicidial_users table and auto assign off day. Off day set 2 days for part time and 1 day for full time. For full time user the total collected user divide by 7 for select the number of user in each day. For part time user get the off day divided into 6 days of each week. But one day in each week all the user assign for work.
+ 
+
+After make the schedule weekly then the next step is assign the users campaign wise. 
+ 
+One user for assigned only one campaign. Also you can be relished all users select the remove campaign and click the add assign button. 
+ 
+
+Shift: 
+For shift creating provide the shift name and select the start and end time. In our system all the time related issue convert as 15 min. So at this stage total time duration divided as 15 min interval.
+ 
+ After providing the required data you must select the work flow of your shift. You can be provide short break. It can be one work slot(15min) or its will be more then one slot. But for long break (30 min) you must select number of pairs its will be 2,4,6 or any kind of even number. 
+ 
+
+All validation will be created form font end validation. All operation make using json data type. After completing creation you can be edit the work flow.
+
+Forecasting:
+For data calculation we use last 7 day data report. Like if we select Sunday then we calculate the last 7 Sunday data report. All calculations are performed using the Erlang formula. Providing the all input data click the calculate button after completing the calculation then click the save button. Similarly make this operation for 7 days. For next time if system call rate increment or decrement then make similarly make the calculation and store the current prediction for making roster. This data mainly use for suggest to admin when he/she make the roster. 
+
+Roster: 
+For make roster we can be used two method for make roster. Those are individual day or weekly roster creation. For weekly roster open the weekly roster interface. 
+ 
+Provide the number of agent for each day like for Monday you need 7 agent for handle your system similarly provide for other day. You must provide the number of agent less then or equal as available agent. Click Set Roster button then system select the available user randomly and assign the selected shift. 
+Similarly different kind of shift assign for different users. If the shift as like night shift the system suggest the user who sweet able for night shift. 
+
+For individual day shift creation admin can be select users manually. After providing the input data our system data suggest the required data for each 15 min. This operation make roster for only one day.
+  
+
+Roster Manage:
+ 
+After create the roster for 7 days or 1 day if admin find any wrong then admin can be delete the last created roster as a group. If the admin click the delete button then it delete the group. After delete the roster admin make its aging. 
+Adherence Report:
+In this report admin can be verified her agent working time for each 15 min. 
+ 
+Users:
+In this interface admin can be active the user or deactivate the user. This user visualization from visidial_users table. 
+  
+ 
+
+Reports:
+Weekly Forecasting Report – In this report the visualization of Erlang calculation. This report helps for suggest to the number of needed users for each 15 min of a week.  
+ 
+
+Slot Wise Report – In this report admin can be search each date and many slot at a time. The search result provide the needed agent for the selected date and slot.
+ 
+
+Exchange Report – In this report admin can be view the shift exchange report and the off day exchange report. 
+ 
+
+Off Day Report – This report provide the day off and work day at individual date. And admin can be change the work status as like admin can be change the off day and also can be change the working day to off day.
+
+ 
+
+
+
+
+Agent Panel
+Agent can be login using his/her agent panel user and password. 
+Users Roster view interface:
+After successfully login user can be search the roster. User only can be view the roster. 
+ 
+
+Exchange Request: 
+ 
+After search agent generate an exchange request. The request can be shift exchange request or its will be day of request. Agent search select the specific date and click the swap button and select the request type (Shift/Of Day).Select the request type then select the other user who already assign other shift and similar campaign. After sending the request the other side user accept or reject the exchange request. 
+ 
+
+After sending the request the selected user login can be received the request if its sweet able for this user then accept the request or can be reject. Similarly all of the user can be send request for day off is the roster is created for long term. 
+ 
+
+Weekly schedule report:
+ 
+
+
